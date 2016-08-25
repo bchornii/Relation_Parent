@@ -9,16 +9,16 @@ namespace _05_iterators
     {
         static void Main(string[] args)
         {
-            //foreach (var item in GetEnumerator1())
-            //{
-            //    Console.WriteLine(item);
-            //}
-
-            IEnumerator<int> enumerator = GetEnumerator();
-            while (enumerator.MoveNext())
+            foreach (var item in GetEnumerator1())
             {
-                Console.WriteLine(enumerator.Current);
+                Console.WriteLine(item);
             }
+
+            //IEnumerator<int> enumerator = GetEnumerator();
+            //while (enumerator.MoveNext())
+            //{
+            //    Console.WriteLine(enumerator.Current);
+            //}
 
             Console.ReadLine();
         }
