@@ -196,6 +196,7 @@ namespace _18_parralel_test
         {
             Stopwatch w = Stopwatch.StartNew();
             Task<string> t = HelloWord();
+            MessageBox.Show("During delay await we do some stuff");
             Thread.Sleep(5000);
             w.Stop();
             MessageBox.Show("Elapsed time : " + (w.ElapsedMilliseconds / 1000.0).ToString());

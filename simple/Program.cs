@@ -122,6 +122,14 @@ namespace simple
             //mother.Work();
             //Console.WriteLine(mother.HumanSex.ToString());
 
+            string message = string.Empty;
+            string a = "sfsf";
+            string b = "dfdg";
+            Console.WriteLine(a + b);
+            Console.Read();
+
+            return;
+
             A[] source = { new A { Property = 12 }, new A { Property = 13 }, new A { Property = 15 } };
             A[] dest = source.Clone() as A[];
 

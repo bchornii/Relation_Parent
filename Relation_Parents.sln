@@ -4,160 +4,58 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "simple", "simple\simple.csproj", "{D192187F-8031-4E0E-94D3-9FE660F2AE9A}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ref_val_types", "ref_val_types\ref_val_types.csproj", "{7C90D82B-067F-4EBB-8F46-93EEAB24167A}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02_WhyPropertiesMatters", "02_WhyPropertiesMatters\02_WhyPropertiesMatters.csproj", "{CFAC6E7B-C953-447A-B727-94BD412AB465}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03_GenericOperators", "03_GenericOperators\03_GenericOperators.csproj", "{87E4D1C3-A030-4260-B466-04EB4957A1B7}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_0_DelegatesAndEvents", "04_DelegatesAndEvents\04_0_DelegatesAndEvents.csproj", "{3EFC2E4D-5A42-4A44-844B-957D9D561EA2}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05_iterators", "05_iterators\05_iterators.csproj", "{80A83880-AEFC-4D48-8CE3-2B480E6A9E65}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06_equals", "06_equals\06_equals.csproj", "{25C0A7E5-1DB5-465B-A221-83949655EBBF}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07_nullable", "07_nullable\07_nullable.csproj", "{ADA40D29-50BB-4670-A66C-1DF1DDD087F0}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08_fast_delegate_again", "08_fast_delegate_again\08_fast_delegate_again.csproj", "{984B06D0-C529-4D54-8E55-A0B9367B409A}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09_closures", "10_closures\09_closures.csproj", "{EFADEDFD-CC8C-4459-977E-ED661D4D4DB1}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_1_DelegateAndEvents", "04_1_DelegateAndEvents\04_1_DelegateAndEvents.csproj", "{0F9ECB6A-6FDF-4C61-B32D-C7609E8224C0}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_AutoProperties", "010_AutoProperties\10_AutoProperties.csproj", "{CB02B67C-171D-4D6C-9F23-C5F4005D5300}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11_AnoniumusTypes", "11_AnoniumusTypes\11_AnoniumusTypes.csproj", "{2EDDAFB3-3F40-4FFF-B120-37063913A31E}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "12_Lambdas", "12_Lambdas\12_Lambdas.csproj", "{9C9B268C-5ACF-4FBF-8191-574794C66589}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "13_ExpressionVsDelegates", "13_ExpressionVsDelegates\13_ExpressionVsDelegates.csproj", "{FAC233D6-4CA8-4373-9530-2755D905FD77}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14_ExtensionMethods", "14_ExtensionMethods\14_ExtensionMethods.csproj", "{918596C5-D614-4F5A-AA6A-1771070AF608}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15_LinqToObjects", "15_LinqToObjects\15_LinqToObjects.csproj", "{D64DBC86-3125-4C5F-A4B8-014DCB3B223F}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_HashCode", "16_HashCode\16_HashCode.csproj", "{D468E57A-A657-4B58-A9AB-214F4BBE64C5}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_parallers", "17_parallers\17_parallers.csproj", "{27FB5B25-61B0-42DA-988C-2D793C89D106}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18_parralel_test", "18_parralel_test\18_parralel_test.csproj", "{B225A8D6-0666-4B1F-ADAB-3D177EECF7E7}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "19_async", "19_async\19_async.csproj", "{7989FD89-3E3B-4CFB-BA0F-4E077A450576}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "20_state_machine", "20_state_machine\20_state_machine.csproj", "{1100711D-EFED-4DFD-85A0-E58033561653}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "21_ConcurentDictionary", "21_ConcurentDictionary\21_ConcurentDictionary.csproj", "{1AAE2254-36E3-43CD-90EF-2515264F86A0}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "22_strings_in_net", "22_strings_in_net\22_strings_in_net.csproj", "{26263768-2743-489D-8311-F9A3D1F85C4E}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "23_TableValuedParams_ADO", "23_TableValuedParams_ADO\23_TableValuedParams_ADO.csproj", "{1845980A-8258-4EF8-AE22-EA86F7853D5E}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "24_BeforeFieldInit", "24_BeforeFieldInit\24_BeforeFieldInit.csproj", "{8A82BC58-6587-4308-9CBE-086A2509457D}"
-	GlobalSection(HgVSProperties) = preSolution
-		SolutionIsControlled = True
-		SolutionBindings = <Solution Location In Database>
-	EndGlobalSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "25_Captures", "_025_Captures\25_Captures.csproj", "{A5EF929C-3F20-464C-9E15-883D2789AE63}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -269,9 +167,117 @@ Global
 		{8A82BC58-6587-4308-9CBE-086A2509457D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A82BC58-6587-4308-9CBE-086A2509457D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A82BC58-6587-4308-9CBE-086A2509457D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5EF929C-3F20-464C-9E15-883D2789AE63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5EF929C-3F20-464C-9E15-883D2789AE63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5EF929C-3F20-464C-9E15-883D2789AE63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5EF929C-3F20-464C-9E15-883D2789AE63}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
+	EndGlobalSection
+	GlobalSection(HgVSProperties) = preSolution
+		SolutionIsControlled = True
+		SolutionBindings = <Solution Location In Database>
 	EndGlobalSection
 	GlobalSection(HgVSProperties) = preSolution
 		SolutionIsControlled = True
