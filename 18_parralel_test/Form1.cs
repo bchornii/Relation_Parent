@@ -71,10 +71,10 @@ namespace _18_parralel_test
                     //    MessageBox.Show(item.ToString());
                     //}
 
-                    Task<int> t = LenOfHello();
-                    MessageBox.Show("From event handler.");
-                    int len = await t;
-                    MessageBox.Show(len.ToString());
+                    //Task<int> t = LenOfHello();
+                    //MessageBox.Show("From event handler.");
+                    //int len = await t;
+                    //MessageBox.Show(len.ToString());
 
                     // провірка викидування ексепшина з метода - якщо він викинений в методі async void - він прокидується 
                     // в контекст; якщо в методі async Task - залишається в обєкті Task
@@ -82,7 +82,7 @@ namespace _18_parralel_test
                     //{
                     //    MethodWithException();
                     //}
-                    //catch(Exception ex) { MessageBox.Show(ex.Message); }
+                    //catch (Exception ex) { MessageBox.Show(ex.Message); }
 
                     // Перевірка метода з CancellationToken
                     // Якщо було викинено ексепшин в асинхронному методі через завершення метода через CancellationToken
@@ -180,7 +180,7 @@ namespace _18_parralel_test
             MessageBox.Show(Thread.CurrentThread.ManagedThreadId.ToString());
         }
 
-        public void SomeLambda(IEnumerable<string> source)
+        public async void SomeLambda(IEnumerable<string> source)
         {
             var res = source.Select(async url =>
             {
@@ -189,7 +189,7 @@ namespace _18_parralel_test
                     await client.GetStringAsync(url);
                 }
             }).ToList();
-            //await Task.WhenAll(res);
+            await Task.WhenAll(res);
         }
 
         private async Task<int> LenOfHello()

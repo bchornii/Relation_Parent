@@ -43,8 +43,8 @@ namespace _16_HashCode
             object oo2 = str2;
             Console.WriteLine(str1.Equals(oo1));
 
-            Console.WriteLine(str1.GetHashCode() + " : " + oo1.GetHashCode());
-            Console.WriteLine(str2.GetHashCode() + " : " + oo2.GetHashCode());            
+            Console.WriteLine(str1.GetHashCode() + " : " + oo1.GetHashCode() + " : " + ((Str)oo1).GetHashCode());
+            Console.WriteLine(str2.GetHashCode() + " : " + oo2.GetHashCode() + " : " + ((Str)oo2).GetHashCode());            
             Console.WriteLine(str2.SomeHash());
 
             Console.WriteLine(new string('-', 80));
@@ -73,7 +73,7 @@ namespace _16_HashCode
     //                                                   структура може загубитись в хеш таблиці
     // для структури в якої перше поле змінне - ламається логіка GetHashCode. CLR xor-рить хеш код даного поля з 
     //                                          вказівником на тип даного поля (MethodTablePointer)
-    struct Str //: IEquatable<Str>
+    struct Str : IEquatable<Str>
     {
         
         public int a;
@@ -93,41 +93,41 @@ namespace _16_HashCode
         {            
             return obj.GetType().GetHashCode() ^ obj.GetHashCode();
         }
-        //public bool Equals(Str other)
-        //{
-        //    return a == other.a && b == other.b &&
-        //           s.Equals(other.s);
-        //}
+        public bool Equals(Str other)
+        {
+            return a == other.a && b == other.b &&
+                   s.Equals(other.s);
+        }
 
-        //public override bool Equals(object obj)
-        //{
-        //    if (obj == null)
-        //    {
-        //        return false;
-        //    }
-        //    if (!(obj is Str))
-        //    {
-        //        return false;
-        //    }
-        //    return Equals((Str)obj);
-        //}
+        public override bool Equals(object obj)
+        {
+            if (obj == null)
+            {
+                return false;
+            }
+            if (!(obj is Str))
+            {
+                return false;
+            }
+            return Equals((Str)obj);
+        }
 
-        //public override int GetHashCode()
-        //{
-        //    unchecked
-        //    {
-        //        return (a ^ b) * 367 + s.GetHashCode();
-        //    }
-        //}
+        public override int GetHashCode()
+        {
+            unchecked
+            {
+                return (a ^ b) * 367 + s.GetHashCode();
+            }
+        }
 
-        //public static bool operator ==(Str str1, Str str2)
-        //{
-        //    return str1.Equals(str2);
-        //}
+        public static bool operator ==(Str str1, Str str2)
+        {
+            return str1.Equals(str2);
+        }
 
-        //public static bool operator !=(Str str1, Str str2)
-        //{
-        //    return !(str1 == str2);
-        //}
+        public static bool operator !=(Str str1, Str str2)
+        {
+            return !(str1 == str2);
+        }
     }
 }
