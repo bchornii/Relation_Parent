@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace some_mess
 {
@@ -35,7 +36,7 @@ namespace some_mess
             Console.WriteLine("int 12 = byte 12 : {0}", i.Equals(b));
 
             Console.WriteLine(new string('-', 80));
-            List<Foo> set = new List<Foo>();
+            HashSet<Foo> set = new HashSet<Foo>();
             var v1 = new Foo { MyNum = 10, MyStr = "ok", Time = DateTime.Parse("01/01/2016") };
             var v2 = new Foo { MyNum = 10, MyStr = "ok", Time = DateTime.Parse("01/01/2016") };
             var v3 = new Foo { MyNum = 10, MyStr = "ok", Time = DateTime.Parse("01/01/2016") };
@@ -51,6 +52,7 @@ namespace some_mess
                 Console.WriteLine(item.GetHashCode());
             }
 
+            Console.WriteLine(new string('*', 40));
             v1.MyNum = 23;
 
             foreach (var item in set)
@@ -58,6 +60,33 @@ namespace some_mess
                 Console.WriteLine(item.MyNum + " : " + item.MyStr + " : " + item.Time);
                 Console.WriteLine(item.GetHashCode());
             }
+
+            Console.WriteLine(new string('-', 80));
+
+            int[] arr = { 1, 2, 23, 4, 5, 6 };
+            List<Action> actions_list = new List<Action>();
+            for (int k = 0; k < 5; k++)
+            {               
+                actions_list.Add(() => Console.WriteLine(k));
+            }
+
+            for (int k = 0; k < 5; k++)
+            {
+                actions_list[k]();
+            }
+
+            Console.WriteLine(new string('-', 80));
+            actions_list = new List<Action>();
+            foreach (var item in Enumerable.Range(1,5))
+            {
+                actions_list.Add(() => Console.WriteLine(item));
+            }
+
+            for (int k = 0; k < 5; k++)
+            {
+                actions_list[k]();
+            }
+
 
             Console.Read();
         }

@@ -12,10 +12,7 @@ namespace _04_1_DelegateAndEvents
 
         public void CallSomeEvent()
         {
-            if(someEvent != null)
-            {
-                someEvent(this, new EventArgs());
-            }
+            someEvent?.Invoke(this, new EventArgs());
         }
     }
 
